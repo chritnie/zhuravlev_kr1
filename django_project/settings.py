@@ -31,7 +31,7 @@ CSRF_TRUSTED_ORIGINS = [
     "https://" + domain for domain in os.environ.get("REPLIT_DOMAINS", "").split(',') if domain
 ]
 
-# Application definition
+# Application definition    
 
 INSTALLED_APPS = [
     'django.contrib.admin',
